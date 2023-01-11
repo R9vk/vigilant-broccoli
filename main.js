@@ -5,6 +5,7 @@ if (typeof document.dev_env != "undefined") {
 }
 else {
   base_url = "https://raw.githubusercontent.com/ading2210/edpuzzle-answers/main";
+  alert("burb loaded");
 }
 
 function http_get(url, callback) {
